@@ -83,7 +83,7 @@ class _HomescreenState extends State<Homescreen> {
             new ElevatedButton(onPressed: add, child: 
               new Text('+'),
               style: ElevatedButton.styleFrom(
-                primary: Colors.cyan,
+                backgroundColor: Colors.cyan,
                 textStyle: TextStyle(
                   fontSize: 25,
                   fontWeight: FontWeight.bold,
@@ -93,7 +93,7 @@ class _HomescreenState extends State<Homescreen> {
             new ElevatedButton(onPressed: sub, child: 
               new Text('-'),
               style: ElevatedButton.styleFrom(
-                primary: Colors.cyan,
+                backgroundColor: Colors.cyan,
                 textStyle: TextStyle(
                   fontSize: 25,
                   fontWeight: FontWeight.bold,
@@ -103,7 +103,7 @@ class _HomescreenState extends State<Homescreen> {
             new ElevatedButton(onPressed: div, child: 
               new Text('/'),
               style: ElevatedButton.styleFrom(
-                primary: Colors.cyan,
+                backgroundColor: Colors.cyan,
                 textStyle: TextStyle(
                   fontSize: 25,
                   fontWeight: FontWeight.bold,
@@ -113,7 +113,7 @@ class _HomescreenState extends State<Homescreen> {
             new ElevatedButton(onPressed: mul, child: 
               new Text('*'),
               style: ElevatedButton.styleFrom(
-                primary: Colors.cyan,
+                backgroundColor: Colors.cyan,
                 textStyle: TextStyle(
                   fontSize: 25,
                   fontWeight: FontWeight.bold,
